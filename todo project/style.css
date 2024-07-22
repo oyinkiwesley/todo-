@@ -1,0 +1,75 @@
+body{
+	background-color: whitesmoke;
+	margin:10px;
+}
+.nav{
+	background-color: #0a24f4;
+	color: white;
+	border-radius: 10px;
+	height: 50px;
+}
+.header{
+	font-family: sans-serif;
+	font-size: 40px;
+	margin-left: 10px;
+}
+#todo-Namer{
+	margin-left: 10px;
+	height: 30px;
+	width: 50%;
+	background-color: transparent;
+	margin: none;
+	color: black;
+	margin-top: 3px;
+	border-radius: 10px;
+	border:2px solid #0a24f4;
+}
+.addtodo{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+	border: 2px solid #0a24f4;
+	background-color: whitesmoke;
+	color: #0a24f4;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.addtodo:hover{
+	background-color: #0a24f4;
+	color: white;
+}
+#todoArea{
+	font-family: sans-serif;
+	color: black;
+	font-size: 20px;
+}
+.Clear{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+	border: 2px solid #0a24f4;
+	background-color: whitesmoke;
+	color: #0a24f4;
+	margin-left: 5px;
+	cursor: pointer;
+	flex: 1;
+}
+.Clear:hover{
+	background-color: #0a24f4;
+	color: white;
+}
+.footer-bottom {
+    padding-top: 20px;
+    text-align: center;
+    background-color:#0a24f4;
+    color:white;
+    margin-top: 22.4em;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
